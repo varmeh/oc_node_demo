@@ -5,7 +5,7 @@ app.get('', (req, res) => {
 	res.send({ hi: 'there' })
 })
 
-const port = 5000
+const port = 8080
 app.listen(port, () => {
 	console.log('====================================')
 	console.log(`Listening on port: ${port}`)
